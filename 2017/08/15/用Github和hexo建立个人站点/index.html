@@ -4,22 +4,32 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
   
-  <title>Cyber Corner</title>
+  <title>用Github和hexo建立个人站点 | Cyber Corner</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   
     <meta name="author" content="杨照宇">
   
   
-  <meta name="description" content="杨照宇的博客">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Cyber Corner">
-<meta property="og:url" content="http://yangzhaoyu.com/index.html">
+    <meta name="description" content="摘要：写这篇短文的初衷是想记录一下自己利用github和hexo建立个人博客站点的过程，如果有幸被你看见，并且有所帮助的话，那是最好不过了。
+购买域名在网上看了一些评论,推荐上 GoDaddy 购买，安全，而且可以使用支付宝。这里略过过程不表。需要填一些信息，住址、电话之类的，不过没有实名制（应该可以随便填填）。注意邮箱要输入正确，否则修改十分麻烦。买完域名之后一定要记得去自己的邮箱查看激活邮件，">
+  
+  <meta name="description" content="摘要：写这篇短文的初衷是想记录一下自己利用github和hexo建立个人博客站点的过程，如果有幸被你看见，并且有所帮助的话，那是最好不过了。 购买域名在网上看了一些评论,推荐上 GoDaddy 购买，安全，而且可以使用支付宝。这里略过过程不表。需要填一些信息，住址、电话之类的，不过没有实名制（应该可以随便填填）。注意邮箱要输入正确，否则修改十分麻烦。买完域名之后一定要记得去自己的邮箱查看激活邮件，">
+<meta property="og:type" content="article">
+<meta property="og:title" content="用Github和hexo建立个人站点">
+<meta property="og:url" content="http://yangzhaoyu.com/2017/08/15/用Github和hexo建立个人站点/index.html">
 <meta property="og:site_name" content="Cyber Corner">
-<meta property="og:description" content="杨照宇的博客">
+<meta property="og:description" content="摘要：写这篇短文的初衷是想记录一下自己利用github和hexo建立个人博客站点的过程，如果有幸被你看见，并且有所帮助的话，那是最好不过了。 购买域名在网上看了一些评论,推荐上 GoDaddy 购买，安全，而且可以使用支付宝。这里略过过程不表。需要填一些信息，住址、电话之类的，不过没有实名制（应该可以随便填填）。注意邮箱要输入正确，否则修改十分麻烦。买完域名之后一定要记得去自己的邮箱查看激活邮件，">
 <meta property="og:locale" content="chinese">
+<meta property="og:image" content="http://oukblmr36.bkt.clouddn.com/domainname.jpg">
+<meta property="og:image" content="http://oukblmr36.bkt.clouddn.com/blog01.jpg">
+<meta property="og:image" content="http://oukblmr36.bkt.clouddn.com/DNSmanage2.jpg">
+<meta property="og:image" content="http://oukblmr36.bkt.clouddn.com/localinit.jpg">
+<meta property="og:image" content="http://oukblmr36.bkt.clouddn.com/git-deploy.jpg">
+<meta property="og:updated_time" content="2017-08-19T14:45:44.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Cyber Corner">
-<meta name="twitter:description" content="杨照宇的博客">
+<meta name="twitter:title" content="用Github和hexo建立个人站点">
+<meta name="twitter:description" content="摘要：写这篇短文的初衷是想记录一下自己利用github和hexo建立个人博客站点的过程，如果有幸被你看见，并且有所帮助的话，那是最好不过了。 购买域名在网上看了一些评论,推荐上 GoDaddy 购买，安全，而且可以使用支付宝。这里略过过程不表。需要填一些信息，住址、电话之类的，不过没有实名制（应该可以随便填填）。注意邮箱要输入正确，否则修改十分麻烦。买完域名之后一定要记得去自己的邮箱查看激活邮件，">
+<meta name="twitter:image" content="http://oukblmr36.bkt.clouddn.com/domainname.jpg">
   
     <link rel="alternate" href="/atom.xml" title="Cyber Corner" type="application/atom+xml">
   
@@ -53,67 +63,7 @@
   </nav>
   <div class="clearfix"></div>
 </header>
-    <div class="content">
-
-
-
-
-  
-    <article class="post">
-  <header>
-    
-      <div class="icon"></div>
-      <a href="/2017/08/17/比特币和我/">
-  <time datetime="2017-08-16T16:00:00.000Z">
-    2017-08-17
-  </time>
-</a>
-    
-    
-  
-    <h1 class="title"><a href="/2017/08/17/比特币和我/">比特币和我</a></h1>
-  
-
-  </header>
-  
-  <div class="entry">
-    
-      <p>说来惭愧，早在2008年刚上大学的时候我就知道比特币这个东西了，那时候这个概念刚提出来，我是在《大科技》杂志上看到的。时年正值美国次贷危机，当时这个概念给我留下了深刻的映像。但我也没有太在意，到现在也没买过一次比特币。<br>第二次听说比特币大概是在2013年，那时中国已经有很多人在炒币、挖矿了。比特币价格峰值甚至达到8000元/个。那时心理还是有点后悔的，想着当年要是挖点矿或者收点币，那不是发了。<br>后来由于一些负面事件导致行情一直低迷。我也就没怎么关注了。转眼到了2017年5月，肆虐全球的勒索病毒事件又引爆了比特币行情。<br>下面两张图是百度指数和谷歌趋势。可以看出良家的搜索结果差不多。红框是两次搜索高峰，分别是2013年11月和2017年5月。<br>第三张图是比特币近五年的价格走势，显然和搜索趋势是比较吻合的。</p>
-<p><img src="http://oukblmr36.bkt.clouddn.com/bitcoinIndex.jpg" alt="比特币百度搜索指数"><br><img src="http://oukblmr36.bkt.clouddn.com/bitcoinIndexGoogle.jpg" alt="比特币谷歌趋势"><br><img src="http://oukblmr36.bkt.clouddn.com/bitcoinPrice.jpg" alt="比特币历史价格"></p>
-<blockquote>
-<p>总部位于中国香港的比特币交易平台BitMEX首席执行官亚瑟·海因斯在接受媒体采访时特别提到比特币的风险防范。 “我建议投资者可以投入一定数量的资金，但需要注意的是，这笔资金应该是在你可接受的损失范围内。在我看来，比特币未来的价值要么接近于零，要么将是天文数字。”</p>
-</blockquote>
-<hr>
-<blockquote>
-<p>所幸的是，现在欧美有不少初创公司和风投机构在做比特币的生态系统，希望好好的利用它，创造发挥出比特币的价值，同时也能从这个支付系统中赚钱，越来越多的欧美商家和企业开始支持和接受比特币作为支付手段。与此相比，中国市场上除了建交易所就是投机分子。其实，拥有一点比特币，即使价格再高，也不过是一个暴发户，是一杆子的买卖。比特币只有在使用中传递价值才能创造价值。当然，比特币投机者也不是完全没有功劳，至少他们还是一定程度上推进了比特币向大众普及的进程。<br>作者：土木坛子<br>链接：<a href="https://www.zhihu.com/question/22020816/answer/21914874" target="_blank" rel="external">https://www.zhihu.com/question/22020816/answer/21914874</a><br>来源：知乎<br>著作权归作者所有，转载请联系作者获得授权。</p>
-</blockquote>
-<p>这也是我担心的，比特币作为一种货币，流通和使用才能体现它的价值，如果市场上都是些囤积居奇的投机分子，那么离陷入通缩进而崩溃也不远。不过这也不用太担心，比特币不是个封闭体系，它可以和其它货币兑换。</p>
-<blockquote>
-<p>他在一次次可以预见的流通性崩溃中会有一次次更强大的自我调整，而调整的动力，就是自由主义经济。–知乎用户：miao</p>
-</blockquote>
-<h2 id="比特币交易"><a href="#比特币交易" class="headerlink" title="比特币交易"></a>比特币交易</h2><p>今天我在云币网和OKcoin注册了账号，买了一丢丢比特币和以太币。我还真是后知后觉啊😂，起了个大早，赶了个晚集。<br>如今比特币的价格已经空前了，绝不绝后我不知道。后面会怎样发展？我不负责任的猜测一下，不久的将来，市场的情绪会冷却一下，也许会跌不少，但是区块链技术也许就像90年代的互联网一样–对世界的影响远远还未呈现出来。</p>
-<blockquote>
-<p>如今，我们拥有了建立信任的一种全新方式，那就是区块链技术。基于区块链技术的信任建立，不依赖任何人，任何公司，甚至任何政府。基于区块链的信任采用去中心化的方式进行存储，因此没有人可以永久地破坏这一信任。任何人都可以利用这项技术建立信任，或者基于这一特性，在其上创建多样的应用和服务。–<a href="https://zhuanlan.zhihu.com/p/20863202/" target="_blank" rel="external">以太坊初探</a></p>
-</blockquote>
-<p><a href="https://zhuanlan.zhihu.com/p/28492311" target="_blank" rel="external">地址、私钥和钱包</a><br><a href="https://zhuanlan.zhihu.com/p/28036845" target="_blank" rel="external">一文读懂比特币私钥、公钥、钱包地址的来历和关系</a><br><a href="https://www.zhihu.com/question/61185047/answer/185094638" target="_blank" rel="external">比特币交易所是如何工作的</a></p>
-<h2 id="区块链技术"><a href="#区块链技术" class="headerlink" title="区块链技术"></a>区块链技术</h2><p><a href="https://zhuanlan.zhihu.com/p/20764052" target="_blank" rel="external"> Creole 区块链系列文章</a></p>
-<h2 id="比特币与区块链未来发展"><a href="#比特币与区块链未来发展" class="headerlink" title="比特币与区块链未来发展"></a>比特币与区块链未来发展</h2><p>。。。</p>
-<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="http://www.zhaizou.com/hulianwang/11422.html" target="_blank" rel="external">比特币大事件</a><br><a href="http://www.360doc.com/content/13/1228/09/5052258_340704469.shtml" target="_blank" rel="external">一张图了解比特币发展史</a><br><a href="https://zhuanlan.zhihu.com/p/28492311" target="_blank" rel="external">地址、私钥和钱包</a><br><a href="https://zhuanlan.zhihu.com/p/28036845" target="_blank" rel="external">一文读懂比特币私钥、公钥、钱包地址的来历和关系</a><br><a href="https://www.zhihu.com/question/40504007" target="_blank" rel="external">关于各种在线钱包</a><br><a href="https://www.zhihu.com/question/61185047/answer/185094638" target="_blank" rel="external">比特币交易所是如何工作的</a><br><a href="https://yunbi.com/documents/how_to_trade" target="_blank" rel="external">如何在云币网交易？</a><br><a href="http://www.jianshu.com/p/d3dd704a26e2?from=singlemessage" target="_blank" rel="external">云币网交易教程</a><br><a href="https://zhuanlan.zhihu.com/p/20764052" target="_blank" rel="external"> Creole 区块链系列文章</a></p>
-
-    
-  </div>
-  <footer class="end-sep">
-    
-      
-      
-    
-    <div class="clearfix"></div>
-  </footer>
-</article>
-
-
-  
-    <article class="post">
+    <div class="content"><article class="post">
   <header>
     
       <div class="icon"></div>
@@ -125,7 +75,7 @@
     
     
   
-    <h1 class="title"><a href="/2017/08/15/用Github和hexo建立个人站点/">用Github和hexo建立个人站点</a></h1>
+    <h1 class="title">用Github和hexo建立个人站点</h1>
   
 
   </header>
@@ -186,7 +136,7 @@
 
     
   </div>
-  <footer class="end-sep">
+  <footer>
     
       
       
@@ -194,57 +144,6 @@
     <div class="clearfix"></div>
   </footer>
 </article>
-
-
-  
-    <article class="post">
-  <header>
-    
-      <div class="icon"></div>
-      <a href="/2017/01/01/hello-world/">
-  <time datetime="2016-12-31T16:00:00.000Z">
-    2017-01-01
-  </time>
-</a>
-    
-    
-  
-    <h1 class="title"><a href="/2017/01/01/hello-world/">Hello World</a></h1>
-  
-
-  </header>
-  
-  <div class="entry">
-    
-      <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-    
-  </div>
-  <footer class="end-sep">
-    
-      
-      
-    
-    <div class="clearfix"></div>
-  </footer>
-</article>
-
-
-  
-
-  <nav id="pagination">
-  
-  
-  <div class="clearfix"></div>
-</nav>
 
 </div>
   </div>
